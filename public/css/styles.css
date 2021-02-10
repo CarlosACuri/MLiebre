@@ -1,0 +1,242 @@
+
+
+.cambio{
+width:100%;
+}
+
+.aparec:hover{
+    display:initial;
+    }
+.desaparec{
+    display:none;
+    }
+.decor{
+text-decoration: none;
+}
+
+.c-color:hover{
+color: #0022AA;
+}
+.yellow{
+color: #EAC926;
+}
+
+.titu{
+    font-size:16px ;
+}
+
+.titu-derecha{
+font-size:16px ;
+text-align: right;
+}
+
+main{
+width: 90%;
+position: center;
+font-family: 'Roboto', sans-serif;
+}
+.white{
+background-color: white;
+}
+.logo{
+width: 50%;
+}
+
+.banner{
+width: 100%;
+}
+
+.cent{
+text-align: center;
+}
+
+.cent-img{
+text-align: center;
+}
+
+.texto-head-cuotas{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.busqueda-head{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    }
+
+.ul-no-style{
+list-style-type: none;
+}
+
+.nav-bar{
+display: none;
+}
+
+footer{
+font-family: 'Roboto', sans-serif;
+}
+
+.cabecera{
+    font-family: 'Roboto', sans-serif;
+    padding:10px;
+    background-color: #EAC926;
+    }
+
+article{
+margin: 10px;
+}
+.cuer{
+    font-size:12px ;
+}
+
+.desc{
+font-size:16px ;
+display:none;
+}
+
+.blue-i{
+color:blue;
+}
+
+.prec-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.prec{
+    font-size:18px;
+    width: 30%;
+    text-align: center;
+}
+
+.descu{
+font-size:16px ;
+color:#39b54a;
+width: 70%;
+text-align: right;
+}
+
+.img-prod{
+    width: 90%;
+}
+
+body{
+width: 90%;
+height: 90%;
+padding:10px;
+position: center;
+font-family: 'Roboto', sans-serif;
+}
+
+ul{
+padding:10px;
+}
+
+.camion{
+color:#39b54a;
+width: 95%;
+}
+
+.linea {
+    border-top: 1px solid rgb(209, 203, 203);
+    height: 1px;
+    padding: 0;
+}
+
+
+/* ACA EMPIEZA EL FORMULARIO */
+
+.form-register{
+width: 100%;
+background-color: #e6e1e1;
+}
+
+
+
+@media(min-width: 361px){
+
+.alin-dere{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.cambio{
+width:50%;
+}
+
+.img-prod{
+    width: 90%;
+}
+
+.prec-desc{
+width: 60%;
+}
+    
+.nav-bar{
+    display: initial;
+    }
+
+.box-shadow:hover{
+box-shadow: 3px 3px 3px 3px rgb(209, 203, 203);
+}
+
+.desc{
+    display:initial;
+    }
+
+.burger-menu{
+display:none;
+}
+
+}
+
+@media(min-width: 769px){
+
+.alin-dere{
+width: 100%;
+display: flex;
+flex-direction:row;
+}
+
+.img-prod{
+    width: 90%;
+}
+.cambio{
+width:25%;
+}
+
+.prec-desc{
+width: 100%;
+}
+
+
+}
+/* colores */
+/* Amarillo: #EAC926;
+ Azul: #03264C;
+ Celeste: #1259c3;
+ Gris oscuro: #666;
+ Gris claro: #ebebeb;
+ Verde: #39b54a; */
+
+ /* logos */
+ /* <i class="fas fa-search"></i> */
+ /* <i class="fas fa-bars"></i> */
+ /* <i class="fas fa-user-shield"></i>*/
+/* <i class="fas fa-sign-in-alt"></i> */
+/* <i class="fas fa-hand-holding-usd"></i> */
+/* <i class="far fa-id-card"></i> */
+/* <i class="fas fa-shopping-basket"></i> */
+/* <i class="fas fa-gift"></i> */
+/* <i class="fas fa-credit-card"></i> */
+/* <i class="fas fa-truck"></i> */
+
+/* (para poner en la caja principal):
+ border-width:15px;
+border-style:solid;
+border-color:#ebebeb;
+margin: 15px; */

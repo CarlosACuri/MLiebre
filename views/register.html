@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Formulario de registro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0a3676e9b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <section class="cabecera">
+        
+        <div class="busqueda-head">
+            <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo de mercado liebre">
+            <div>
+            <form action="resultado.html" method="POST">
+                <p>
+                  <input class="logo" type="text" name="busqueda" placeholder="Buscar productos, marcas y más">
+                  <button><i class="fas fa-search"></i></button>
+                </p>
+            </div> 
+        </div>
+    
+        <div class="texto-head-cuotas">
+            <i class="fas fa-hand-holding-usd"></i>
+            <p class="titu cent">Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <div class="burger-menu cent"><i class="fas fa-bars blue-i"></i></div>
+    
+    <nav class="ul-no-style nav-bar">
+    <b class="titu">Ofertas Tiendas Oficiales Vender Ayuda  </b>
+    <b class="titu-derecha"> Creá tu cuenta <i class="far fa-id-card"></i> Ingresá <i class="fas fa-sign-in-alt"></i> Mis compras <i class="fas fa-shopping-basket"></i> </b>
+    </nav>
+    </header>
+
+
+
+  <main class="form-register">
+    <form class="cent banner" action="resultado.html" method="POST">
+      <p>
+        <label>Nombre y apellido:</label>
+        <input type="text" name="nombre y apellido" required placeholder="Nombre Apellido">
+      </p>
+
+      <p>
+        <label>Nombre de usuario:</label>
+        <input type="text" name="nombre de usuario" required placeholder="">
+      </p>
+
+      <p>
+        <label>fecha de nacimiento:</label>
+        <input type="date" name="number" required placeholder="dd/mm/yyyy">
+      </p>
+
+      <p>
+        <label>Domicilio:</label>
+        <input type="text" name="domicilio" required placeholder="Calle Numero Piso Depto">
+      </p>
+
+      <p>
+        <label>Contraseña:</label>
+        <input type="password" name="password" required placeholder="********">
+      </p>
+
+      <p>
+        <label>Confirmar contraseña:</label>
+        <input type="password" name="password" required placeholder="********">
+      </p>
+
+      <div>
+      <label for="perfil">Perfil de usuario</label>
+      <p><label><input type="radio" name="perfil" id="Comprador">Comprador</label></p>
+      <p><label><input type="radio" name="perfil" id="Vendedor">Vendedor</label></p>
+      </div>
+
+      <p>
+        <label for="intereses">Intereses
+          <p><input type="checkbox" name="interes" value="Electro">Electro</p>
+          <p><input type="checkbox" name="interes" value="Moda">Moda</p>
+            <p><input type="checkbox" name="interes" value="Hogar">Hogar</p>
+            <p><input type="checkbox" name="interes" value="Juguetería">Juguetería</p>
+            <p><input type="checkbox" name="interes" value="Vida sana">Vida sana</p>
+        </label>
+      </p>
+
+      <p>
+        <button type="submit" value="SUBMIT"><a class="decor" href="localhost:3000">ENVIAR</a></button>
+        <input type="reset" value="BORRAR"></input>
+      </p>
+      
+    </form>
+
+  </main>
+
+</body>
+</html>
